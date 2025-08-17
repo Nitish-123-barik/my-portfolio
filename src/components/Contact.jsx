@@ -58,7 +58,7 @@ const Contact = () => {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
       value: "Tangi, Cuttack",
-      href: "#"
+      href: "https://maps.google.com/?q=20.28496,86.5216"
     }
   ];
 
