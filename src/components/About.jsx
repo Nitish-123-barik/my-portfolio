@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Palette, Brain } from 'lucide-react';
+import { Code, Palette, Brain, MoveLeft } from 'lucide-react';
 
 const About = () => {
   const highlights = [
@@ -57,11 +57,12 @@ const About = () => {
 
           {/* Image Section */}
           <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
+            <div >
               <img 
-                src="/Nitish image.jpg"   // ✅ Correct way to load image from public folder
+                src="/nitish.jpg"   // ✅ Correct way to load image from public folder
                 alt="My Story"
-                className="w-64 h-64 object-cover rounded-2xl shadow-lg"
+                className="w-90 h-90 object-cover rounded-2xl shadow-lg"
+                
               />
             </div>
           </div>
