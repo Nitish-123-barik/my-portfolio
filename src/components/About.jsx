@@ -55,7 +55,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
               <div className="w-64 h-64 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center text-white text-6xl font-bold">
-                👨‍💻
+                👨
               </div>
             </div>
           </div>

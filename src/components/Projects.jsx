@@ -4,12 +4,12 @@ import { ExternalLink, Github, Calendar } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "EcoTracker",
-      description: "A comprehensive web application that helps users track their environmental impact and carbon footprint with interactive dashboards and personalized recommendations.",
+      title: "Ecomerce Platform",
+      description: "I built a full-featured e-commerce web app that makes shopping smooth and secure—lightning-fast search, rich product pages, wishlists, and a streamlined checkout with real-time order tracking.",
       image: "https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
-      demoLink: "#",
-      githubLink: "#",
+      technologies: ["React","javascript", "Node.js", "MongoDB", "Tailwind CSS", "Express"],
+      demoLink: "https://nova-vnlm.vercel.app",
+      githubLink: "https://github.com/Nitish-123-barik/E-commerce-web.git",
       date: "2024"
     },
     {
