@@ -23,6 +23,8 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             About Me
@@ -33,6 +35,7 @@ const About = () => {
           </p>
         </div>
 
+        {/* My Story Section */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">My Story</h3>
@@ -51,16 +54,20 @@ const About = () => {
               or working on personal projects that challenge me to learn something new.
             </p>
           </div>
-          
+
+          {/* Image Section */}
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
-              <div className="w-64 h-64 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center text-white text-6xl font-bold">
-                👨
-              </div>
+              <img 
+                src="/Nitish image.jpg"   // ✅ Correct way to load image from public folder
+                alt="My Story"
+                className="w-64 h-64 object-cover rounded-2xl shadow-lg"
+              />
             </div>
           </div>
         </div>
 
+        {/* Highlights Section */}
         <div className="grid md:grid-cols-3 gap-8">
           {highlights.map((highlight, index) => (
             <div
@@ -75,6 +82,7 @@ const About = () => {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );
