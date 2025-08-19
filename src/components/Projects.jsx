@@ -6,11 +6,12 @@ const Projects = () => {
     {
       title: "Ecomerce Platform",
       description: "I built a full-featured e-commerce web app that makes shopping smooth and secure—lightning-fast search, rich product pages, wishlists, and a streamlined checkout with real-time order tracking.",
-      image: "https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "e-commerce.jpg",
       technologies: ["React","javascript", "Node.js", "MongoDB", "Tailwind CSS", "Express"],
       demoLink: "https://nova-vnlm.vercel.app",
       githubLink: "https://github.com/Nitish-123-barik/E-commerce-web.git",
-      date: "2024"
+      date: "2024",
+       className:"w-70 h-70 object-cover rounded-2xl shadow-lg"
     },
     {
       title: "StudyBuddy",
