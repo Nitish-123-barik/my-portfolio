@@ -14,13 +14,13 @@ const Projects = () => {
        className:"w-70 h-70 object-cover rounded-2xl shadow-lg"
     },
     {
-      title: "StudyBuddy",
+      title: "Student Management System",
       description: "A collaborative study platform that connects students, featuring real-time chat, shared notes, and AI-powered study recommendations.",
-      image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
-      demoLink: "#",
-      githubLink: "#",
-      date: "2024"
+      image: "https://thumbs.dreamstime.com/b/student-management-system-inscription-page-student-management-system-inscription-page-185564938.jpg",
+      technologies: ["React.js", "JavaScript", "Mangodb", "Tailwind CSS"],
+      demoLink: "https://student-management-ten-vert.vercel.app/",
+      githubLink: "https://github.com/Nitish-123-barik/student-management.git",
+      date: "2025"
     },
     {
       title: "TaskFlow Mobile",
