@@ -8,7 +8,7 @@ const Projects = () => {
       description: "I built a full-featured e-commerce web app that makes shopping smooth and secure—lightning-fast search, rich product pages, wishlists, and a streamlined checkout with real-time order tracking.",
       image: "e-commerce.jpg",
       technologies: ["React","javascript", "Node.js", "MongoDB", "Tailwind CSS", "Express"],
-      demoLink: "https://nova-vnlm.vercel.app",
+      demoLink: "https://e-commerce-web-kblr.vercel.app",
       githubLink: "https://github.com/Nitish-123-barik/E-commerce-web.git",
       date: "2024",
        className:"w-70 h-70 object-cover rounded-2xl shadow-lg"
